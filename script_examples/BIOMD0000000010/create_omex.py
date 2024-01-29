@@ -1,3 +1,6 @@
+# This script was written by Jin Xu and available on Github
+# https://github.com/SunnyXu/Curating-models-from-Biomodels-Developing-a-workflow-for-creating-OMEX-files
+
 import tellurium as te
 import phrasedml 
 import libsedml
