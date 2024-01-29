@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omexManifest xmlns="http://identifiers.org/combine.specifications/omex-manifest">
+  <content location="Jarrett2018.sedml" format="http://identifiers.org/combine.specifications/sed-ml" master="true"/>
+  <content location="Jarrett2018.xml" format="http://identifiers.org/combine.specifications/sbml" master="false"/>
+  <content location="Jarrett2018_curated.omex" format="http://purl.org/NET/mediatypes/application/octet-stream" master="false"/>
+  <content location="autogen_report_for_task1.csv" format="http://purl.org/NET/mediatypes/application/octet-stream" master="false"/>
+  <content location="create_omex.py" format="http://purl.org/NET/mediatypes/application/x-python-code" master="false"/>
+  <content location="manifest.xml" format="http://identifiers.org/combine.specifications/sbml" master="false"/>
+  <content location="plot_1_task1.pdf" format="http://purl.org/NET/mediatypes/application/PDF" master="false"/>
+  <content location="plot_2_task1.pdf" format="http://purl.org/NET/mediatypes/application/PDF" master="false"/>
+</omexManifest>

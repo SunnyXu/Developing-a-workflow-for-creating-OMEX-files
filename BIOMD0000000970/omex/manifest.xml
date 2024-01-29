@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omexManifest xmlns="http://identifiers.org/combine.specifications/omex-manifest">
+  <content location="Hou2020.sedml" format="http://identifiers.org/combine.specifications/sed-ml" master="true"/>
+  <content location="Hou2020.xml" format="http://identifiers.org/combine.specifications/sbml" master="false"/>
+  <content location="autogen_report_for_task2.csv" format="http://purl.org/NET/mediatypes/application/octet-stream" master="false"/>
+  <content location="create_omex.py" format="http://purl.org/NET/mediatypes/application/x-python-code" master="false"/>
+  <content location="manifest.xml" format="http://identifiers.org/combine.specifications/sbml" master="false"/>
+  <content location="plot_5_task2.pdf" format="http://purl.org/NET/mediatypes/application/PDF" master="false"/>
+  <content location="plot_6_task2.pdf" format="http://purl.org/NET/mediatypes/application/PDF" master="false"/>
+  <content location="plot_7_task2.pdf" format="http://purl.org/NET/mediatypes/application/PDF" master="false"/>
+  <content location="plot_8_task2.pdf" format="http://purl.org/NET/mediatypes/application/PDF" master="false"/>
+</omexManifest>
