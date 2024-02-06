@@ -6,4 +6,4 @@ Some widely adopted standards and public repositories can facilitate the reprodu
 
 ## Citing
 
-If you use any of the codes, please cite the GitHub website (https://github.com/SunnyXu/Developing-a-workflow-for-creating-OMEX-files).
+If you use any of the codes, please cite the GitHub website (https://github.com/sys-bio/Developing-a-workflow-for-creating-OMEX-files).
