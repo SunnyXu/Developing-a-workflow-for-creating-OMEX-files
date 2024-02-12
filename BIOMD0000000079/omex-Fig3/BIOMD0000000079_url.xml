@@ -252,7 +252,7 @@
           
         </notes>
       </species>
-      <species compartment="body" hasOnlySubstanceUnits="true" id="R" initialConcentration="0.55" metaid="metaid_0000014" name="R">
+      <species compartment="body" hasOnlySubstanceUnits="true" id="R" initialConcentration="0.6" metaid="metaid_0000014" name="R">
         <notes>
           <p xmlns="http://www.w3.org/1999/xhtml">
         degree of resolution measuring cognitive restraint</p>

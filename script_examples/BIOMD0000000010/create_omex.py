@@ -1,5 +1,5 @@
-# This script was written by Jin Xu and available on Github
-# https://github.com/SunnyXu/Curating-models-from-Biomodels-Developing-a-workflow-for-creating-OMEX-files
+# This script was written by Jin Xu and Lucian Smith. It is available on GiHub.
+# https://github.com/SunnyXu/Developing-a-workflow-for-creating-OMEX-files
 
 import tellurium as te
 import phrasedml 
@@ -49,9 +49,7 @@ p_str = """
     task_fig2a = run sim0 on kholodenko
     task_fig2b = run sim1 on kholodenko_b
     plot "Figure 2A" task_fig2a.time/60 vs task_fig2a.MAPK_PP, task_fig2a.MAPK
-    plot "Figure 2B" task_fig2b.time/60 vs task_fig2b.MAPK_PP, task_fig2b.MAPK
     report "Figure 2A" task_fig2a.time/60 vs task_fig2a.MAPK_PP, task_fig2a.MAPK
-    report "Figure 2B" task_fig2b.time/60 vs task_fig2b.MAPK_PP, task_fig2b.MAPK
 """
 
 r = te.loads("BIOMD0000000010_url.xml")
@@ -94,29 +92,6 @@ curve = plot.getCurve(1)
 curve.setStyle("dashed")
 curve.setName("MAPK")
 
-
-plot = sedml.getOutput(1)
-
-xaxis=plot.createXAxis()
-xaxis.setType(libsedml.SEDML_AXISTYPE_LINEAR)
-xaxis.setName("Time (min)")
-xaxis.setGrid(False)
-xaxis.setMin(0)
-xaxis.setMax(200)
-
-yaxis=plot.createYAxis()
-yaxis.setType(libsedml.SEDML_AXISTYPE_LINEAR)
-yaxis.setName("MAPK concentrations (nM)")
-yaxis.setGrid(False)
-
-curve = plot.getCurve(0)
-# curve.setName("E (open)")
-curve.setStyle("solid")
-curve.setName("MAPK_PP")
-curve = plot.getCurve(1)
-# curve.setName("P (open)")
-curve.setStyle("dashed")
-curve.setName("MAPK")
 
 
 style = sedml.createStyle()

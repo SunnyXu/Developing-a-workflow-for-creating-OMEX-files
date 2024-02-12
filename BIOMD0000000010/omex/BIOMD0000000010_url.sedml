@@ -62,64 +62,21 @@
         <variable id="task_fig2a_____MAPK" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;MAPK&apos;]" taskReference="task_fig2a"/>
       </listOfVariables>
     </dataGenerator>
-    <dataGenerator id="plot_1_0_0" name="task_fig2b.time/60">
-      <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <apply>
-          <divide/>
-          <ci> task_fig2b_____time </ci>
-          <cn type="integer"> 60 </cn>
-        </apply>
-      </math>
-      <listOfVariables>
-        <variable id="task_fig2b_____time" symbol="urn:sedml:symbol:time" taskReference="task_fig2b"/>
-      </listOfVariables>
-    </dataGenerator>
-    <dataGenerator id="plot_1_0_1" name="task_fig2b.MAPK_PP">
-      <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <ci> task_fig2b_____MAPK_PP </ci>
-      </math>
-      <listOfVariables>
-        <variable id="task_fig2b_____MAPK_PP" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;MAPK_PP&apos;]" taskReference="task_fig2b"/>
-      </listOfVariables>
-    </dataGenerator>
-    <dataGenerator id="plot_1_1_1" name="task_fig2b.MAPK">
-      <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <ci> task_fig2b_____MAPK </ci>
-      </math>
-      <listOfVariables>
-        <variable id="task_fig2b_____MAPK" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;MAPK&apos;]" taskReference="task_fig2b"/>
-      </listOfVariables>
-    </dataGenerator>
   </listOfDataGenerators>
   <listOfOutputs>
     <plot2D id="plot_0" name="Figure 2A">
-      <xAxis name="TIME(min)" type="linear" min="0" max="150" grid="false"/>
+      <xAxis name="Time (min)" type="linear" min="0" max="150" grid="false"/>
       <yAxis name="MAPK concentrations (nM)" type="linear" grid="false"/>
       <listOfCurves>
         <curve id="plot_0__plot_0_0_0__plot_0_0_1" name="MAPK_PP" logX="false" style="solid" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_0_0_1"/>
         <curve id="plot_0__plot_0_0_0__plot_0_1_1" name="MAPK" logX="false" style="dashed" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_0_1_1"/>
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_1" name="Figure 2B">
-      <xAxis name="TIME (min)" type="linear" min="0" max="200" grid="false"/>
-      <yAxis name="MAPK concentrations (nM)" type="linear" grid="false"/>
-      <listOfCurves>
-        <curve id="plot_1__plot_1_0_0__plot_1_0_1" name="MAPK_PP" logX="false" style="solid" xDataReference="plot_1_0_0" logY="false" yDataReference="plot_1_0_1"/>
-        <curve id="plot_1__plot_1_0_0__plot_1_1_1" name="MAPK" logX="false" style="dashed" xDataReference="plot_1_0_0" logY="false" yDataReference="plot_1_1_1"/>
-      </listOfCurves>
-    </plot2D>
-    <report id="report_2" name="Figure 2A">
+    <report id="report_1" name="Figure 2A">
       <listOfDataSets>
         <dataSet id="plot_0_0_0_dataset" label="task_fig2a.time/60" dataReference="plot_0_0_0"/>
         <dataSet id="plot_0_0_1_dataset" label="task_fig2a.MAPK_PP" dataReference="plot_0_0_1"/>
         <dataSet id="plot_0_1_1_dataset" label="task_fig2a.MAPK" dataReference="plot_0_1_1"/>
-      </listOfDataSets>
-    </report>
-    <report id="report_3" name="Figure 2B">
-      <listOfDataSets>
-        <dataSet id="plot_1_0_0_dataset" label="task_fig2b.time/60" dataReference="plot_1_0_0"/>
-        <dataSet id="plot_1_0_1_dataset" label="task_fig2b.MAPK_PP" dataReference="plot_1_0_1"/>
-        <dataSet id="plot_1_1_1_dataset" label="task_fig2b.MAPK" dataReference="plot_1_1_1"/>
       </listOfDataSets>
     </report>
   </listOfOutputs>
