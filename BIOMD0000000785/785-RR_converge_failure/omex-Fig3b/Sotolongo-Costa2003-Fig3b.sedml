@@ -117,7 +117,7 @@
     </dataGenerator>
   </listOfDataGenerators>
   <listOfOutputs>
-    <plot2D id="plot_1_task1" name="Figure 3a">
+    <plot2D id="plot_1_task1" name="Figure 3b">
       <xAxis name="t" type="linear" min="0" max="180" grid="false"/>
       <yAxis name="X" type="linear" min="0" max="2.5" grid="false"/>
       <listOfCurves>
