@@ -117,7 +117,7 @@
     </dataGenerator>
   </listOfDataGenerators>
   <listOfOutputs>
-    <plot2D id="plot_1_task1" name="Figure 3b">
+    <plot2D id="plot_1_task1" name="Figure 3a">
       <xAxis name="t" type="linear" min="0" max="180" grid="false"/>
       <yAxis name="X" type="linear" min="0" max="2.5" grid="false"/>
       <listOfCurves>
@@ -144,18 +144,6 @@
   <listOfStyles>
     <style id="style1">
       <line type="solid" thickness="1"/>
-      <marker type="none"/>
-    </style>
-    <style id="solid_red">
-      <line type="solid" color="ff0000"/>
-      <marker type="none"/>
-    </style>
-    <style id="solid_blue">
-      <line type="solid" color="0000FF"/>
-      <marker type="none"/>
-    </style>
-    <style id="solid_orange">
-      <line type="solid" color="FFA500"/>
       <marker type="none"/>
     </style>
     <style id="solid_red">

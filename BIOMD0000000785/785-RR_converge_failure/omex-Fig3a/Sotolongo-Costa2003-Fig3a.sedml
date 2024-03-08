@@ -158,5 +158,17 @@
       <line type="solid" color="FFA500"/>
       <marker type="none"/>
     </style>
+    <style id="solid_red">
+      <line type="solid" color="ff0000"/>
+      <marker type="none"/>
+    </style>
+    <style id="solid_blue">
+      <line type="solid" color="0000FF"/>
+      <marker type="none"/>
+    </style>
+    <style id="solid_orange">
+      <line type="solid" color="FFA500"/>
+      <marker type="none"/>
+    </style>
   </listOfStyles>
 </sedML>

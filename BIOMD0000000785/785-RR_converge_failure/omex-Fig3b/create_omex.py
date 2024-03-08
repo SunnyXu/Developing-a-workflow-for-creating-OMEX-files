@@ -188,7 +188,7 @@ SBML = r.getParamPromotedSBML(r.getSBML())
 #     print(phrasedml.getLastError())
 
 #sedml = libsedml.readSedMLFromString(sed)
-sedml = libsedml.readSedMLFromFile("D:/summer-2023/4-pick_models/22-785/file/Sotolongo-Costa2003.sedml")
+sedml = libsedml.readSedMLFromFile("../Sotolongo-Costa2003.sedml")
 
 sedml.setVersion(4)
 
