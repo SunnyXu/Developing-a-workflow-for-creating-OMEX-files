@@ -6,4 +6,4 @@ The reproducibility of computational biology models can be greatly facilitated b
 
 ## Citing
 
-If you use any of the codes, please cite the GitHub website (https://github.com/SunnyXu/Developing-a-workflow-for-creating-OMEX-files).
+If you use any of the codes, please cite the article (https://www.biorxiv.org/content/10.1101/2024.03.15.585236) and GitHub website (https://github.com/sys-bio/Developing-a-workflow-for-creating-OMEX-files).
