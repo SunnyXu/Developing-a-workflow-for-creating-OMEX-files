@@ -238,7 +238,7 @@
       <compartment id="body" metaid="metaid_0000011" name="body" size="1"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species compartment="body" hasOnlySubstanceUnits="true" id="P" initialConcentration="0.43" metaid="metaid_0000012" name="P">
+      <species compartment="body" hasOnlySubstanceUnits="true" id="P" initialConcentration="0.5" metaid="metaid_0000012" name="P">
         <notes>
           <p xmlns="http://www.w3.org/1999/xhtml">
         body weight</p>
@@ -252,7 +252,7 @@
           
         </notes>
       </species>
-      <species compartment="body" hasOnlySubstanceUnits="true" id="R" initialConcentration="0.55" metaid="metaid_0000014" name="R">
+      <species compartment="body" hasOnlySubstanceUnits="true" id="R" initialConcentration="0.8" metaid="metaid_0000014" name="R">
         <notes>
           <p xmlns="http://www.w3.org/1999/xhtml">
         degree of resolution measuring cognitive restraint</p>
@@ -356,7 +356,7 @@
           </math>
                   <listOfParameters>
             <parameter id="V1" metaid="_462954" value="1"/>
-            <parameter id="K1" metaid="_462957" value="0.01"/>
+            <parameter id="K1" metaid="_462957" value="0.1"/>
           </listOfParameters>
         </kineticLaw>
       </reaction>
@@ -391,7 +391,7 @@
           </math>
                   <listOfParameters>
             <parameter id="V2" metaid="_462959" value="1.5"/>
-            <parameter id="K2" metaid="_462962" value="0.01"/>
+            <parameter id="K2" metaid="_462962" value="0.1"/>
           </listOfParameters>
         </kineticLaw>
       </reaction>
@@ -426,7 +426,7 @@
           </math>
                   <listOfParameters>
             <parameter id="V3" metaid="_462963" value="6"/>
-            <parameter id="k3" metaid="_462964" value="0.01"/>
+            <parameter id="k3" metaid="_462964" value="0.1"/>
           </listOfParameters>
         </kineticLaw>
       </reaction>
@@ -457,7 +457,7 @@
           </math>
                   <listOfParameters>
             <parameter id="V" metaid="_462965" value="2.5"/>
-            <parameter id="Km" metaid="_462966" value="0.01"/>
+            <parameter id="Km" metaid="_462966" value="0.1"/>
           </listOfParameters>
         </kineticLaw>
       </reaction>
