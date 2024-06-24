@@ -32,7 +32,7 @@ SBML = r.getParamPromotedSBML(r.getSBML())
 
 
 #sedml = libsedml.readSedMLFromString(sed)
-sedml = libsedml.readSedMLFromFile("../files/BIOMD0000000003_url.sedml")
+sedml = libsedml.readSedMLFromFile("../old_SEDML/BIOMD0000000003_url.sedml")
 
 sedml.setVersion(4)
 
