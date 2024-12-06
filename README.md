@@ -6,4 +6,4 @@ The reproducibility of computational biology models can be greatly facilitated b
 
 ## Citing
 
-If you use any of the codes, please cite the article (https://www.biorxiv.org/content/10.1101/2024.03.15.585236).
+If you use any of the codes, please cite the article (https://doi.org/10.1371/journal.pone.0314875).
